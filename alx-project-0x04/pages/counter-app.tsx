@@ -13,9 +13,9 @@ const CounterApp: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-yellow-400 to-pink-500 flex flex-col justify-center items-center text-white">
-      <h1 className="text-6xl font-extrabold mb-6">ï¿½ï¿½ Fun Counter App í¾‰</h1>
+      <h1 className="text-6xl font-extrabold mb-6">ğŸ¤– Fun Counter App ğŸ‰</h1>
       <p className="text-lg font-medium mb-4">
-        Current count: {count} {count === 0 ? "í¹ˆ No clicks yet!" : count % 10 === 0 && count !== 0 ? "í´¥ You're on fire!" : ""}
+        Current count: {count} {count === 0 ? "ğŸ™ˆ No clicks yet!" : count % 10 === 0 && count !== 0 ? "ğŸ”¥ You're on fire!" : ""}
       </p>
       <div className="text-6xl font-bold mb-8">
         {count}
@@ -25,17 +25,17 @@ const CounterApp: React.FC = () => {
           onClick={increment}
           className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full text-lg transition duration-300 shadow-lg transform hover:scale-105"
         >
-          Increment íº€
+          Increment ğŸš€
         </button>
         <button
           onClick={decrement}
           className="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-full text-lg transition duration-300 shadow-lg transform hover:scale-105"
         >
-          Decrement í±
+          Decrement ğŸ‘
         </button>
       </div>
       <p className="mt-8 text-sm text-white opacity-75">
-        Keep clicking, who knows what happens at 100? í¸
+        Keep clicking, who knows what happens at 100? ğŸ˜
       </p>
     </div>
   );
